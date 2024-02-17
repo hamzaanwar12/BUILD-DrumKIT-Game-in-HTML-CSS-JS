@@ -1,0 +1,97 @@
+
+html{
+    
+    /*background: url("drums/download.png");*/
+    background-color: rgb(7 96 96);
+    font-family: 'Teko', sans-serif; 
+    font-style: italic;
+    font-size: 27px;
+    text-align: center;
+    z-index: 5;
+}
+/* body{
+    background: url("drums/download.png");
+    z-index: -99;
+} */
+.container{
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.container h1{
+    text-shadow: 2px 2px grey;
+}
+
+
+.btns{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 10px;
+}
+
+button{
+    width:117px;
+    height: 100px;
+    font-size: 21px;
+    font-weight:900;
+}
+
+.sub{
+    margin: 12px;
+    border-width: 5px;
+    border-color: black;
+    border-radius: 0.5rem;
+    background-color: brown;
+}
+
+
+#start {
+   width: 50%;
+    margin: auto;
+}
+
+#start button{
+    margin-top: 1.5rem;
+    height: 45%;
+    width: 31%;
+    border: 3px solid black;
+    border-radius: 1.2rem;
+    transition-property: "transform" 2s 0s linear;
+    transition-duration: 2s;
+    /* transition-delay: 1s; */
+    transition-timing-function: linear;
+}
+
+#start button:hover
+{
+    transform: scale(1.2);
+    background-color: rgb(139, 0, 46);    
+}
+
+
+#one{
+    background-image: url("drums/images/tom1.png");
+    
+}
+#two{
+    background-image: url("drums/images/tom2.png");
+}
+#three{
+    background-image: url("drums/images/tom3.png");
+}
+#four{
+    background-image: url("drums/images/tom4.png");
+}
+#five{
+    background-image: url("drums/images/kick.png");
+}
+#six{    
+    background-image: url("drums/images/crash.png");
+}
+#seven{
+        
+    background-image: url("drums/images/snare.png");
+}
+
